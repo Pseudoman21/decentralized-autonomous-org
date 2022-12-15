@@ -34,44 +34,20 @@
 
 .button {
   border-radius: 4px;
-  background-color: blue;
+  background-color: rgb(83, 48, 180);
   border: none;
   color: #ffffff;
   font-size: 15px;
-  padding: 10px;
+  padding: 20px;
   width: 200px;
   cursor: pointer;
-  margin-right: 2%;
   margin-bottom: 2%;
+  transition: all 0.3s ease-in-out;
 }
 
-.button2 {
-  border-radius: 4px;
-  background-color: indigo;
-  border: none;
-  color: #ffffff;
-  font-size: 15px;
-  padding: 10px;
-  cursor: pointer;
-  margin-right: 2%;
-  margin-top: 1rem;
-}
-
-.proposalCard {
-  width: fit-content;
-  margin-top: 0.25rem;
-  border: black 2px solid;
-  flex: 1;
-  flex-direction: column;
-}
-
-.container {
-  margin-top: 2rem;
-}
-
-.flex {
-  flex: 1;
-  justify-content: space-between;
+.button:hover {
+  background-color: rgb(120, 84, 219);
+  transition: all 0.3s ease-in-out;
 }
 
 @media (max-width: 1000px) {

@@ -6,6 +6,11 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+input {
+  padding: 20px 14px;
+  margin-bottom: 10px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -15,12 +20,30 @@ a {
   box-sizing: border-box;
 }
 
+button {
+  border-radius: 4px;
+  background-color: rgb(83, 48, 180);
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(120, 84, 219);
+  transition: all 0.3s ease-in-out;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
     color: white;
-    background: black;
+    background: rgb(29, 27, 27);
   }
 }
